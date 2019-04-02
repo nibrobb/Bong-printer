@@ -1,0 +1,103 @@
+
+* {
+    border-width: 2px;
+    /*margin-top: 10%;
+    margin-bottom: 10%;*/
+}
+
+#max {
+    height: 842px;
+}
+
+.bong {
+    color: #4a4a4a;
+    height: 50px;
+    width: 240px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #c01717;
+    /*border-width: 2px;*/
+    align-content: center;
+    text-align: center;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#bong-inside {
+    text-align: center;
+
+    /* Border Stuff */ 
+    border: solid;
+    border-width: 2px;
+    border-top: 0;
+    border-bottom: 0;
+    border-color: #c01717;
+
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 14px;
+    
+}
+
+#leftside {
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*border: solid;*/
+    /*
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    */
+    margin-top: 15px;
+    margin-left: -8px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 0px;
+    
+
+    float: left;
+    transform: rotate(270deg);
+}
+
+
+#rightside {
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*border: solid;*/
+    /*
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    */
+    margin-top: 20px;
+    /*margin-left: -8px;*/
+    margin-right: 0px;
+    padding-left: -5px;
+    padding-right: 3px;
+    padding-top: 0px;
+
+    float: right;
+    transform: rotate(90deg);
+}
+
+/* idk */
+#small-text {
+    font-size: 10px;
+}
+
+
+/* Actual text and shit */
+#text-inside {
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#imgplace {
+    margin-top: 3px;
+}
