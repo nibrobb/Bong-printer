@@ -35,9 +35,23 @@ A${counterString}
 </div>
 <br>
 `;
-    let newDiv = document.createElement(`div`);
-    newDiv.className = 'bong';
-    newDiv.innerHTML = template;
-    document.body.appendChild(newDiv);
-    counter = counter + 1;
+    if(counter <= 18){
+            let newDiv = document.createElement(`div`);
+            newDiv.className = 'bong';
+            newDiv.innerHTML = template;
+            document.getElementById('column_1').appendChild(newDiv);
+            counter = counter + 1;
+    } else if (counter > 18 && counter <= 36){
+            let newDiv = document.createElement(`div`);
+            newDiv.className = 'bong';
+            newDiv.innerHTML = template;
+            document.getElementById('column_2').appendChild(newDiv);
+            counter = counter + 1;
+    } else if (counter > 36){
+            let newDiv = document.createElement(`div`);
+            newDiv.className = 'bong';
+            newDiv.innerHTML = template;
+            document.getElementById('column_3').appendChild(newDiv);
+            counter = counter + 1;
+    }
 }

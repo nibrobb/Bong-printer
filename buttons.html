@@ -3,7 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>Lag bonger</title>
+    
+    <!-- This stylesheet makes the page look pretty -->
     <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <!-- This stylesheet makes the buttons dissapear upon printing-->
+    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
     <script src="buttons.js"></script>
 </head>
 <body id='max'>
@@ -11,4 +16,9 @@
     <button onclick="createBong();">Lag én bong</button>
     <button onclick="printToPDF();">Print til PDF</button>
 </body>
+<div id="colums_container">
+    <div class="columns" id="column_1"></div>
+    <div class="columns" id="column_2"></div>
+    <div class="columns" id="column_3"></div>
+</div>
 </html>
