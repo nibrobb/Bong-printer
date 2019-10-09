@@ -1,8 +1,4 @@
-function hello(){
-    alert('Hello, this is test');
-}
-
-function test2 (){
+function printBongs (){
     let msg = prompt("Hello, how many bongs");
     msg = Number(msg);
     for (i= 0; i< msg; i++){
@@ -10,9 +6,12 @@ function test2 (){
     }
 }
 
+function printToPDF () {
+    window.print();
+}
+
 let counterString;
 let counter = 1;
-
 
 
 function createBong() {
