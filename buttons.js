@@ -26,8 +26,7 @@ A${counterString}
 <div id='bong-inside'>
 <div id='text-inside'>
     <img id='imgplace' src="images/icon.png" width="15" height="20">
-    <b>Integrerbar
-    </b>
+    <b>Integrerbar</b>
     <br>
     <div id='small-text'>
         Øl, Vin, Cider og Brus
