@@ -9,8 +9,8 @@ button {
 
 .columns {
     width: fit-content;
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #colums_container{
@@ -19,6 +19,7 @@ button {
     display: inline-block;
     float: none;
 }
+
 
 * {
     border-width: 2px;
